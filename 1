@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>房地产销售</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background: #007bff; color: white; padding: 15px; text-align: center; }
+        .container { padding: 20px; }
+        .property { border: 1px solid #ddd; padding: 15px; margin: 10px 0; }
+        .contact-form { max-width: 400px; margin: 20px auto; }
+        .contact-form input, .contact-form textarea { width: 100%; margin-bottom: 10px; padding: 8px; }
+        .contact-form button { background: #007bff; color: white; border: none; padding: 10px; width: 100%; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>房地产销售</h1>
+    </header>
+    
+    <div class="container">
+        <h2>房源信息</h2>
+        <div class="property">
+            <h3>双层排屋 - Jalan Pengkalan Utama 14</h3>
+            <p>4房3卫，售价 RM500K</p>
+            <a href="details.html">查看详情</a>
+        </div>
+    </div>
+    
+    <div class="container">
+        <h2>联系我们</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="您的姓名" required>
+            <input type="email" placeholder="您的邮箱" required>
+            <textarea placeholder="您的留言" required></textarea>
+            <button type="submit">提交</button>
+        </form>
+    </div>
+</body>
+</html>
+
+<!-- details.html -->
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>房源详情</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background: #007bff; color: white; padding: 15px; text-align: center; }
+        .container { padding: 20px; }
+        .property-details { border: 1px solid #ddd; padding: 15px; }
+        .back-link { display: block; margin-top: 20px; color: #007bff; text-decoration: none; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>房源详情</h1>
+    </header>
+    
+    <div class="container">
+        <div class="property-details">
+            <h2>双层排屋 - Jalan Pengkalan Utama 14</h2>
+            <p><strong>价格：</strong> RM500K</p>
+            <p><strong>房间数：</strong> 4房3卫</p>
+            <p><strong>描述：</strong> 这是一套位于优越地段的双层排屋，环境优美，设施齐全，非常适合家庭居住。</p>
+        </div>
+        <a class="back-link" href="index.html">返回首页</a>
+    </div>
+</body>
+</html>
